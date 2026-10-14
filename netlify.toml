@@ -1,0 +1,4 @@
+# Tells Netlify how to build and publish this site.
+[build]
+  command = "npm run build"   # turn our React code into a plain website
+  publish = "dist"            # the folder the build creates
